@@ -15,6 +15,12 @@
                     <!-- New Task Form -->
                     <form action="{{ url('task')}}" method="POST" class="form-horizontal">
                         {{ csrf_field() }}
+                        <fieldset>
+                            <legend>Type de soirée</legend>
+                            <ul>
+                                <li><input type="radio" id = "choix"/><label for="choix">Choix<label/>
+                            </ul>
+                        </fieldset>
 
                         <!-- Task Name -->
                         <div class="form-group">
