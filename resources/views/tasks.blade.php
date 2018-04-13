@@ -43,6 +43,7 @@
                     <div class="panel-heading">
                         Current Tasks
                     </div>
+                    <p>LUL</p>
 
                     <div class="panel-body">
                         <table class="table table-striped task-table">
