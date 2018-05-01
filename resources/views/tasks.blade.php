@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <div class="col-sm-offset-3 col-sm-7">
+        <div class="col-sm-offset-2 col-sm-8">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     Nouvelle soirée
@@ -25,7 +25,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-3">
-                                    <legend> Type de soirée</legend>
+                                    <legend>Type de soirée</legend>
                                     <ul>
                                         <li><input type="radio" id = "choix"/><label for="choix">Choix<label/>
                                         <li><input type="radio" id = "choix2"/><label for="choix2">Choix2<label/>
@@ -39,7 +39,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-sm-3">
-                                    <legend>Alcoolisation </legend>
+                                    <legend>Alcoolisation</legend>
                                     <ul>
                                         <li><input type="radio" id = "choix"/><label for="choix">Choix<label/>
                                         <li><input type="radio" id = "choix2"/><label for="choix2">Choix2<label/>
