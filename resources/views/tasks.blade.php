@@ -23,12 +23,28 @@
                             <div class="col-sm-6">
                                 <input type="text" name="name" id="task-name" class="form-control" value="{{ old('task') }}">
                             </div>
-                            <div class="col-sm-6">
-                                <legend>Type de soirée</legend>
-                                <ul>
-                                    <li><input type="radio" id = "choix"/><label for="choix">Choix<label/>
-                                    <li><input type="radio" id = "choix2"/><label for="choix2">Choix2<label/>
-                                </ul>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <legend>Type de soirée</legend>
+                                    <ul>
+                                        <li><input type="radio" id = "choix"/><label for="choix">Choix<label/>
+                                        <li><input type="radio" id = "choix2"/><label for="choix2">Choix2<label/>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                    <legend>Taille de soirée</legend>
+                                    <ul>
+                                        <li><input type="radio" id = "choix"/><label for="choix">Choix<label/>
+                                        <li><input type="radio" id = "choix2"/><label for="choix2">Choix2<label/>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                    <legend>Alcoolisation</legend>
+                                    <ul>
+                                        <li><input type="radio" id = "choix"/><label for="choix">Choix<label/>
+                                        <li><input type="radio" id = "choix2"/><label for="choix2">Choix2<label/>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
 
