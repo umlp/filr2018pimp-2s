@@ -5,7 +5,7 @@
         <div class="col-sm-offset-3 col-sm-7">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    New Task
+                    Nouvelle soirée
                 </div>
 
                 <div class="panel-body">
@@ -15,19 +15,20 @@
                     <!-- New Task Form -->
                     <form action="{{ url('task')}}" method="POST" class="form-horizontal">
                         {{ csrf_field() }}
-                        <fieldset>
-                            <legend>Type de soirée</legend>
-                            <ul>
-                                <li><input type="radio" id = "choix"/><label for="choix">Choix<label/>
-                            </ul>
-                        </fieldset>
 
-                        <!-- Task Name -->
+                        <!-- Descriptif soirée -->
                         <div class="form-group">
                             <label for="task-name" class="col-sm-3 control-label">Task</label>
 
                             <div class="col-sm-6">
                                 <input type="text" name="name" id="task-name" class="form-control" value="{{ old('task') }}">
+                            </div>
+                            <div class="col-sm-6">
+                                <legend>Type de soirée</legend>
+                                <ul>
+                                    <li><input type="radio" id = "choix"/><label for="choix">Choix<label/>
+                                    <li><input type="radio" id = "choix2"/><label for="choix2">Choix2<label/>
+                                </ul>
                             </div>
                         </div>
 
