@@ -24,9 +24,8 @@
                                 <input type="text" name="name" id="task-name" class="form-control" value="{{ old('task') }}">
                             </div>
                             <div class="row">
-                                <div class="col-sm-1"></div>
                                 <div class="col-sm-3">
-                                    <legend>Type de soirée</legend>
+                                    <legend> Type de soirée</legend>
                                     <ul>
                                         <li><input type="radio" id = "choix"/><label for="choix">Choix<label/>
                                         <li><input type="radio" id = "choix2"/><label for="choix2">Choix2<label/>
@@ -40,13 +39,12 @@
                                     </ul>
                                 </div>
                                 <div class="col-sm-3">
-                                    <legend>Alcoolisation</legend>
+                                    <legend>Alcoolisation </legend>
                                     <ul>
                                         <li><input type="radio" id = "choix"/><label for="choix">Choix<label/>
                                         <li><input type="radio" id = "choix2"/><label for="choix2">Choix2<label/>
                                     </ul>
                                 </div>
-                                <div class="col-sm-1"></div>
                             </div>
                         </div>
 
