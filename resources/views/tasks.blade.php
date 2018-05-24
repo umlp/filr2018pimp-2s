@@ -70,20 +70,19 @@
             @if (count($tasks) > 0)
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        Current Tasks
+                        Soirées créées
                     </div>
-                    <p>LUL</p>
 
                     <div class="panel-body">
                         <table class="table table-striped task-table">
                             <thead>
-                                <th>Task</th>
+                                <th>Soirée</th>
                                 <th>&nbsp;</th>
                             </thead>
                             <tbody>
                                 @foreach ($tasks as $task)
                                     <tr>
-                                        <td class="table-text"><div>{{ $task->name }}</div></td>
+                                        <td class="table-text"><div>{{ $task->name }}{{ $task->type }}{{ $task->taille }}{{ $task->alcoolisation }}</div></td>
 
                                         <!-- Task Delete Button -->
                                         <td>
