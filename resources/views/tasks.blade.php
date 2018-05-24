@@ -55,7 +55,7 @@
                         <!-- Add Task Button -->
                         <div class="form-group">
                             <div class="row">
-                                <div class="col-sm-6">
+                                <div class="col-sm-offset-3 col-sm-6">
                                     <button type="submit" class="btn btn-default">
                                         <i class="fa fa-btn fa-plus"></i>Ajouter une soirée
                                     </button>
