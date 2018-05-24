@@ -30,22 +30,22 @@
                                 <div class="col-sm-3">
                                     <legend>Type de soirée</legend>
                                     <ul>
-                                        <li><input type="radio" name="type" id = "choix" value="{{ old('task') }}"/><label for="choix">Choix<label/>
-                                        <li><input type="radio" name="type" id = "choix2" value="{{ old('task') }}"/><label for="choix2">Choix2<label/>
+                                        <li><input type="radio" name="type" id = "choix"/><label for="choix">Choix<label/>
+                                        <li><input type="radio" name="type" id = "choix2"/><label for="choix2">Choix2<label/>
                                     </ul>
                                 </div>
                                 <div class="col-sm-4">
                                     <legend>Taille de soirée</legend>
                                     <ul>
-                                        <li><input type="radio" name="taille" id = "choix" value="{{ old('task') }}"/><label for="choix">Choix<label/>
-                                        <li><input type="radio" name="taille" id = "choix2" value="{{ old('task') }}"/><label for="choix2">Choix2<label/>
+                                        <li><input type="radio" name="taille" id = "choix"/><label for="choix">Choix<label/>
+                                        <li><input type="radio" name="taille" id = "choix2"/><label for="choix2">Choix2<label/>
                                     </ul>
                                 </div>
                                 <div class="col-sm-3">
                                     <legend>Alcoolisation</legend>
                                     <ul>
-                                        <li><input type="radio" name="alcoolisation" id = "choix" value="{{ old('task') }}"/><label for="choix">Choix<label/>
-                                        <li><input type="radio" name="alcoolisation" id = "choix2" value ="{{ old('task') }}"/><label for="choix2">Choix2<label/>
+                                        <li><input type="radio" name="alcoolisation" id = "choix"/><label for="choix">Choix<label/>
+                                        <li><input type="radio" name="alcoolisation" id = "choix2"/><label for="choix2">Choix2<label/>
                                     </ul>
                                 </div>
                                 <div class="col-sm-1"></div>
@@ -82,7 +82,7 @@
                             <tbody>
                                 @foreach ($tasks as $task)
                                     <tr>
-                                        <td class="table-text"><div>{{ $task->name }}{{ $task->type }}{{ $task->taille }}{{ $task->alcoolisation }}</div></td>
+                                        <td class="table-text"><div>{{ $task->type }}</div></td>
 
                                         <!-- Task Delete Button -->
                                         <td>
