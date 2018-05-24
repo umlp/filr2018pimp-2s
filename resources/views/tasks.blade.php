@@ -54,10 +54,12 @@
 
                         <!-- Add Task Button -->
                         <div class="form-group">
-                            <div class="col-sm-6">
-                                <button type="submit" class="btn btn-default">
-                                    <i class="fa fa-btn fa-plus"></i>Ajouter une soirée
-                                </button>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <button type="submit" class="btn btn-default">
+                                        <i class="fa fa-btn fa-plus"></i>Ajouter une soirée
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </form>
