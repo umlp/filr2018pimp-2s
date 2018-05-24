@@ -30,22 +30,22 @@
                                 <div class="col-sm-3">
                                     <legend>Type de soirée</legend>
                                     <ul>
-                                        <li><input type="radio" name="type" id = "choixtype" value="choixtype1"/><label for="choixtype">Choix<label/>
-                                        <li><input type="radio" name="type" id = "choixtype2" value="choixtype2"/><label for="choixtype2">Choix2<label/>
+                                        <li><input type="radio" name="type" id = "choixtype" value="choixtype1"/>Choix<br/>
+                                        <li><input type="radio" name="type" id = "choixtype2" value="choixtype2"/>Choix2<br/>
                                     </ul>
                                 </div>
                                 <div class="col-sm-4">
                                     <legend>Taille de soirée</legend>
                                     <ul>
-                                        <li><input type="radio" name="taille" id = "choixtaille" value="choixtaille1"/><label for="choixtaille">Choix<label/>
-                                        <li><input type="radio" name="taille" id = "choixtaille2" value="choixtaille2"/><label for="choixtaille2">Choix2<label/>
+                                        <li><input type="radio" name="taille" id = "choixtaille" value="choixtaille1"/>Choix<br/>
+                                        <li><input type="radio" name="taille" id = "choixtaille2" value="choixtaille2"/>Choix2<br/>
                                     </ul>
                                 </div>
                                 <div class="col-sm-3">
                                     <legend>Alcoolisation</legend>
                                     <ul>
-                                        <li><input type="radio" name="alcoolisation" id = "choixalcool" value="choixalcool1"/><label for="choixalcool">Choix<label/>
-                                        <li><input type="radio" name="alcoolisation" id = "choixalcool2" value="choixalcool2"/><label for="choixalcool2">Choix2<label/>
+                                        <li><input type="radio" name="alcoolisation" id = "choixalcool" value="choixalcool1"/>Choix<br/>
+                                        <li><input type="radio" name="alcoolisation" id = "choixalcool2" value="choixalcool2"/>Choix2<br/>
                                     </ul>
                                 </div>
                                 <div class="col-sm-1"></div>
