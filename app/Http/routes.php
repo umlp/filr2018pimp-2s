@@ -40,9 +40,6 @@ Route::group(['middleware' => ['web']], function () {
 
         $task = new Task;
         $task->name = $request->name;
-        $task->type = $request->type;
-        $task->taille = $request->taille;
-        $task->alcoolisation = $request->alcoolisation;
         $task->save();
 
         return redirect('/');
