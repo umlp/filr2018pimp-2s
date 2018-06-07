@@ -31,7 +31,8 @@
 	}
 	
 	.formulaire{
-		opacity: 0.5;
+		opacity: 0.75;
+	}
         
         .menu{
 				width:190px;
