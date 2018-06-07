@@ -29,7 +29,7 @@
                             <div class="row">                                
                                 <div class="col-sm-4">
                                     <legend for="listeType">Type de la soirée</legend>
-				    <select id="listeType" name="listeType" size="4">
+				    <select id="listeType" class="menu" name="listeType" size="4">
                                         <option value="Classique" selected>Classique</option>
                                         <option value="Anniversaire" >Anniversaire</option>
                                         <option value="Mariage" >Mariage</option>
@@ -39,7 +39,7 @@
                                 </div>
                                 <div class="col-sm-4">
                                     <legend for="listeTaille">Taille de la soirée</legend>
-                                    <select id="listeTaille" name="listeTaille" size="4">
+                                    <select id="listeTaille" class="menu" name="listeTaille" size="4">
                                         <option value="Minimale" selected>Minimale</option>
                                         <option value="Faible" >Faible</option>
                                         <option value="Petite" >Petite</option>
@@ -52,7 +52,7 @@
                                 </div>
                                 <div class="col-sm-4">
                                     <legend for="listeAlcool">Alcoolisation</legend>
-                                    <select id="listeAlcool" name="listeAlcool" size="4">
+                                    <select id="listeAlcool" class="menu" name="listeAlcool" size="4">
                                         <option value="Aucune" >Aucune</option>
                                         <option value="Minimale" selected>Minimale</option>
                                         <option value="Faible" >Faible</option>
