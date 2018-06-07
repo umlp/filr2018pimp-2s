@@ -32,6 +32,10 @@
 				font-family: Arial;
 				line-height: 1;
 	}
+	.listeLegende{
+		text-align: center;
+		font-family: Arial;
+		font-size: 20px;
     </style>
 </head>
 <body id="app-layout">
