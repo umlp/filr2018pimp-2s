@@ -24,14 +24,14 @@
 
         .fa-btn {
             margin-right: 6px;
-        }
-	
-	.titre{
-		margin-bottom: 50px;
-	}
+        }	
 	
 	.formulaire{
 		opacity: 0.75;
+	}
+	.titre{
+		margin-bottom: 50px;
+		opacity: 0.9;
 	}
         
         .menu{
@@ -43,16 +43,22 @@
 				line-height: 1;
 				position:relative;
 				left: 100px;
+				opacity: 0.9;
 	}
 	.listeLegende{
 		text-align: center;
 		font-family: Arial;
 		font-size: 20px;
+		opacity: 0.9;
 	}
 	.creation{
 		position:relative;
 		left: 100px;
 		margin-top: 200px;
+		opacity: 0.9;
+	}
+	.bouton{
+		opacity: 0.9;
 	}
     </style>
 </head>
