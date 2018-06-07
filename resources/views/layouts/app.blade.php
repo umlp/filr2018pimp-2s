@@ -25,10 +25,13 @@
         }
         
         .menu{
-				border-padding: 2.5px;
-				background: transparent;
-				font-size: 20;
-	    }
+				width:190px;
+				padding: 5px;
+				background-color: #c0c0c0;
+				font-size: 15px;
+				font-family: Arial;
+				line-height: 1;
+	}
     </style>
 </head>
 <body id="app-layout">
