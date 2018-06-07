@@ -19,7 +19,8 @@
         body {
             font-family: 'Lato';
 	    background-image:url("https://hdwallpaper20.com/wp-content/uploads/2017/08/High-Resolution-Beer-in-The-Glass-Computer-1080p-wallpaper-wp2006477.jpg");
-        }
+            background-size: 1920px 1080px;
+	}
 
         .fa-btn {
             margin-right: 6px;
