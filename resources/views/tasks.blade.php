@@ -13,7 +13,7 @@
                     @include('common.errors')
 
                     <!-- New Task Form -->
-                    <form action="{{ url('task')}}" method="POST" class="form-horizontal">
+                    <form action=GET method="POST" class="form-horizontal">
                         {{ csrf_field() }}
 
                         <!-- Descriptif soirée -->
@@ -78,46 +78,6 @@
                     </form>
                 </div>
             </div>
-
-            <!-- Current Tasks -->
-            @if (count($tasks) > 0)
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        Soirées créées
-                    </div>
-
-                    <div class="panel-body">
-                        <table class="table table-striped task-table">
-                            <thead>
-                                <th>Soirée</th>
-                                <th>&nbsp;</th>
-                            </thead>
-                            <tbody>
-                                @foreach ($tasks as $task)
-                                    <tr>
-                                        <td class="table-text"><div>{{ $task->name }}</div>
-                                        <div>{{ $task->type }}</div>
-                                        <div>{{ $task->taille }}</div>
-                                        <div>{{ $task->alcoolisation }}</div></td>
-
-                                        <!-- Task Delete Button -->
-                                        <td>
-                                            <form action="{{ url('task/'.$task->id) }}" method="POST">
-                                                {{ csrf_field() }}
-                                                {{ method_field('DELETE') }}
-
-                                                <button type="submit" class="btn btn-danger">
-                                                    <i class="fa fa-btn fa-trash"></i>Delete
-                                                </button>
-                                            </form>
-                                        </td>
-                                    </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            @endif
         </div>
     </div>
 @endsection
