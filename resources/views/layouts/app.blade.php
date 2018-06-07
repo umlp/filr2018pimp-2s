@@ -23,6 +23,12 @@
         .fa-btn {
             margin-right: 6px;
         }
+        
+        .menu{
+				border-padding: 2.5px;
+				background: transparent;
+				font-size: 20;
+	    }
     </style>
 </head>
 <body id="app-layout">
