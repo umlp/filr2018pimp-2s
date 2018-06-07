@@ -27,7 +27,7 @@
         }	
 	
 	.formulaire{
-		opacity: 0.75;
+		opacity: 0.8;
 	}
 	.titre{
 		margin-bottom: 50px;
