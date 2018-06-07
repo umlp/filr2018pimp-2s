@@ -66,7 +66,7 @@
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-sm-offset-4 col-sm-6">
-                                    <button type="submit" class="btn btn-default creation">
+                                    <button type="button" class="btn btn-default creation bouton">
                                         <i class="fa fa-btn fa-plus"></i>Ajouter une soirée
                                     </button>
                                 </div>
