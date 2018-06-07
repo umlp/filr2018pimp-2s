@@ -28,7 +28,7 @@
 		margin-bottom: 100px;
         
         .menu{
-				width:250px;
+				width:200px;
 				padding: 5px;
 				background-color: #c0c0c0;
 				font-size: 15px;
