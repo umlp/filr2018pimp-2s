@@ -36,6 +36,10 @@
 		text-align: center;
 		font-family: Arial;
 		font-size: 20px;
+	}
+	.creation{
+		margin-top: 200px;
+	}
     </style>
 </head>
 <body id="app-layout">
