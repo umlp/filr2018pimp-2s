@@ -26,6 +26,7 @@
 	
 	.titre{
 		margin-bottom: 50px;
+	}
         
         .menu{
 				width:190px;
