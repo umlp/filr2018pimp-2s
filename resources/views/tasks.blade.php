@@ -19,36 +19,49 @@
                         <!-- Descriptif soirée -->
                         <div class="form-group">
                             <div class="row">
-                                <label for="task-name" class="col-sm-3 control-label">Soirée</label>
-
+                                <div class="col-sm-3"></div>
                                 <div class="col-sm-6">
-                                    <input type="text" name="name" id="task-name" class="form-control" value="{{ old('task') }}">
+                                    <label for="nomSoiree">Soirée</label>
+                                    <input type="text" name="nomSoiree" id="nomSoiree" class="form-control" value="{{ old('task') }}">
                                 </div>
+                                <div class="col-sm-3"></div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-1"></div>
-                                <div class="col-sm-3">
-                                    <legend>Type de soirée</legend>
-                                    <ul>
-                                        <li><input type="radio" name="type" id = "choixtype" value="choixtype1"/>Choix<br/>
-                                        <li><input type="radio" name="type" id = "choixtype2" value="choixtype2"/>Choix2<br/>
-                                    </ul>
+                            <div class="row">                                
+                                <div class="col-sm-4">
+                                    <legend for="listeType">Type de la soirée</legend>
+				                    <select id="listeType" name="listeType" size="4">
+                                        <option value="Classique" selected>Classique</option>
+                                        <option value="Anniversaire" >Anniversaire</option>
+                                        <option value="Mariage" >Mariage</option>
+                                        <option value="FinExamens" >Fin d'examens</option>
+                                        <option value="NouvelAn" >Nouvel an</option>
+                                    </select>
                                 </div>
                                 <div class="col-sm-4">
-                                    <legend>Taille de soirée</legend>
-                                    <ul>
-                                        <li><input type="radio" name="taille" id = "choixtaille" value="choixtaille1"/>Choix<br/>
-                                        <li><input type="radio" name="taille" id = "choixtaille2" value="choixtaille2"/>Choix2<br/>
-                                    </ul>
+                                    <legend for="listeTaille>Taille de la soirée</legend>
+                                    <select id="listeTaille" name="listeTaille" size="4">
+                                        <option value="Minimale" selected>Minimale</option>
+                                        <option value="Faible" >Faible</option>
+                                        <option value="Petite" >Petite</option>
+                                        <option value="Moyenne" >Moyenne</option>
+                                        <option value="Grande" >Grande</option>
+                                        <option value="Enorme" >Enorme</option>
+                                        <option value="Immense" >Immense</option>
+                                        <option value="Gala" >Gala</option>
+                                    </select>
                                 </div>
-                                <div class="col-sm-3">
-                                    <legend>Alcoolisation</legend>
-                                    <ul>
-                                        <li><input type="radio" name="alcoolisation" id = "choixalcool" value="choixalcool1"/>Choix<br/>
-                                        <li><input type="radio" name="alcoolisation" id = "choixalcool2" value="choixalcool2"/>Choix2<br/>
-                                    </ul>
+                                <div class="col-sm-4">
+                                    <legend for="listeAlcool">Alcoolisation</legend>
+                                    <select id="listeAlcool" name="listeAlcool" size="4">
+                                        <option value="Aucune" >Aucune</option>
+                                        <option value="Minimale" selected>Minimale</option>
+                                        <option value="Faible" >Faible</option>
+                                        <option value="Petite" >Petite</option>
+                                        <option value="Moyenne" >Moyenne</option>
+                                        <option value="Grande" >Grande</option>
+                                        <option value="Enorme" >Enorme</option>
+                                    </select>
                                 </div>
-                                <div class="col-sm-1"></div>
                             </div>
                         </div>
 
