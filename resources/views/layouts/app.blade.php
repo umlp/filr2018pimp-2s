@@ -31,7 +31,7 @@
 	}
 	.titre{
 		margin-bottom: 50px;
-		opacity: 0.9;
+		opacity: 1;
 	}
         
         .menu{
@@ -43,22 +43,22 @@
 				line-height: 1;
 				position:relative;
 				left: 100px;
-				opacity: 0.9;
+				opacity: 1;
 	}
 	.listeLegende{
 		text-align: center;
 		font-family: Arial;
 		font-size: 20px;
-		opacity: 0.9;
+		opacity: 1;
 	}
 	.creation{
 		position:relative;
 		left: 100px;
 		margin-top: 200px;
-		opacity: 0.9;
+		opacity: 1;
 	}
 	.bouton{
-		opacity: 0.9;
+		opacity: 1;
 	}
     </style>
 </head>
