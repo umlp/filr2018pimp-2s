@@ -23,16 +23,19 @@
         .fa-btn {
             margin-right: 6px;
         }
+	
+	.titre{
+		margin-bottom: 100px;
         
         .menu{
-				width:190px;
+				width:250px;
 				padding: 5px;
 				background-color: #c0c0c0;
 				font-size: 15px;
 				font-family: Arial;
 				line-height: 1;
 				position:relative;
-				left: 100px;
+				left: 50px;
 	}
 	.listeLegende{
 		text-align: center;
