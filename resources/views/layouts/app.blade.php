@@ -50,7 +50,7 @@
 	}
     </style>
 </head>
-<body id="app-layout" background="Background.png">
+<body id="app-layout" background="Background.jpg">
 
 
 <!-- barre de menu -->
