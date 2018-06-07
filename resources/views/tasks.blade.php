@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
         <div class="col-sm-offset-2 col-sm-8">
             <div class="panel panel-default">
                 <div class="panel-heading">
@@ -67,7 +66,7 @@
                         <div class="form-group">
                             <div class="row">
                                 <div class="col-sm-offset-4 col-sm-6">
-                                    <button type="submit" class="btn btn-default">
+                                    <button type="submit" class="btn btn-default creation">
                                         <i class="fa fa-btn fa-plus"></i>Ajouter une soirée
                                     </button>
                                 </div>
@@ -77,5 +76,4 @@
                 </div>
             </div>
         </div>
-    </div>
 @endsection
