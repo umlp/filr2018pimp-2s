@@ -29,6 +29,9 @@
 	.titre{
 		margin-bottom: 50px;
 	}
+	
+	.formulaire{
+		opacity: 0.5;
         
         .menu{
 				width:190px;
