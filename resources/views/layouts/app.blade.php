@@ -18,7 +18,7 @@
     <style>
         body {
             font-family: 'Lato';
-	    background-image:url("https://s2.qwant.com/thumbr/0x0/5/d/70a5e2e0cfb4039ae0cfea67404fa61f8f4f11a27ef3bf7432c215139ec11c/bonne_biere_rousse_img_2048x1528.jpg?u=http%3A%2F%2Fwww.divinatix.com%2Fwp-content%2Fuploads%2F2015%2F03%2Fbonne_biere_rousse_img_2048x1528.jpg&q=0&b=1&p=0&a=1");
+	    background-image:url("https://hdwallpaper20.com/wp-content/uploads/2017/08/High-Resolution-Beer-in-The-Glass-Computer-1080p-wallpaper-wp2006477.jpg");
         }
 
         .fa-btn {
