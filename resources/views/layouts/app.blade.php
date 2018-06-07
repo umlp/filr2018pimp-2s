@@ -32,7 +32,7 @@
 				font-family: Arial;
 				line-height: 1;
 				position:relative;
-				right: 100px;
+				left: 100px;
 	}
 	.listeLegende{
 		text-align: center;
@@ -41,7 +41,7 @@
 	}
 	.creation{
 		position:relative;
-		right: 100px;
+		left: 100px;
 		margin-top: 200px;
 	}
     </style>
