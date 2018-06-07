@@ -25,17 +25,17 @@
         }
 	
 	.titre{
-		margin-bottom: 100px;
+		margin-bottom: 50px;
         
         .menu{
-				width:200px;
+				width:190px;
 				padding: 5px;
 				background-color: #c0c0c0;
 				font-size: 15px;
 				font-family: Arial;
 				line-height: 1;
 				position:relative;
-				left: 50px;
+				left: 100px;
 	}
 	.listeLegende{
 		text-align: center;
