@@ -20,7 +20,7 @@
                                 <div class="col-sm-3"></div>
                                 <div class="col-sm-6">
                                     <label for="nomSoiree">Soirée</label>
-                                    <input type="text" name="nomSoiree" id="nomSoiree" class="form-control" value="{{ old('task') }}">
+                                    <input type="text" name="nomSoiree" id="nomSoiree" class="form-control titre" value="{{ old('task') }}">
                                 </div>
                                 <div class="col-sm-3"></div>
                             </div>
