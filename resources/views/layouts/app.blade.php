@@ -34,6 +34,10 @@
 		opacity: 1;
 	}
         
+	#description{
+		margin-top: 50px;
+	}
+	
         .menu{
 				width:190px;
 				padding: 5px;
