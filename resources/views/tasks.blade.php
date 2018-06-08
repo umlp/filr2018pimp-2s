@@ -61,6 +61,11 @@
                                     </select>
                                 </div>
                         </div>
+			<div class="row">
+				<div class="col-sm-12">
+					<textfield id="description" name="description placeholder="Description de la soirée"></textfield>
+				</div>
+			</div>
 
                         <!-- Add Task Button -->
                         <div class="form-group">
