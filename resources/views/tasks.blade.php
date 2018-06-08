@@ -63,7 +63,7 @@
                         </div>
 			<div class="row">
 				<div class="col-sm-12">
-					<textfield id="description" name="description placeholder="Description de la soirée"></textfield>
+					<textarea id="description" name="description placeholder="Description de la soirée"></textarea>
 				</div>
 			</div>
 
