@@ -36,6 +36,7 @@
         
 	#description{
 		margin-top: 50px;
+		height: 50px;
 	}
 	
         .menu{
